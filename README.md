@@ -5,12 +5,12 @@ Completed core features and two bonus features (job output logging, metrics)
 ---
 Contents: 
 
-queuectl.py — CLI entrypoint (enqueue, list, status, config, worker, dlq, logs, stats)
-db.py — SQLite persistence (queuectl.db)
-worker.py — Worker engine (start/stop, job claiming, retries, backoff)
-test_flow.ps1 — Quick Windows PowerShell test script
-README.md — (this file)
-logs — runtime directory with job output logs (auto-created)
+queuectl.py — CLI entrypoint (enqueue, list, status, config, worker, dlq, logs, stats)  
+db.py — SQLite persistence (queuectl.db)  
+worker.py — Worker engine (start/stop, job claiming, retries, backoff)  
+test_flow.ps1 — Quick Windows PowerShell test script  
+README.md — (this file)  
+logs — runtime directory with job output logs (auto-created)  
 sample screenshots — screenshots showcasing executions of various commands
 
 ---
@@ -59,5 +59,6 @@ queuectl dlq list
 queuectl dlq retry --job-id <id>
 
 queuectl logs --job-id <id>
+
 
 queuectl stats
