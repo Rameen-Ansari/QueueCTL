@@ -1,6 +1,4 @@
-QueueCTL — Backend Developer Internship Assignment
-
-Completed core features and two bonus features (job output logging, metrics)
+QueueCTL — Backend Project
 
 ---
 Contents: 
@@ -62,3 +60,4 @@ queuectl logs --job-id <id>
 
 
 queuectl stats
+
